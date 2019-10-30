@@ -1,0 +1,30 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "this is node practice for understnding",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamvarshney/node_practice.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo",
+    "prmoises",
+    "nested",
+    "routing",
+    "async&await",
+    "callback",
+    "clustering"
+  ],
+  "author": "shivam varshney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamvarshney/node_practice/issues"
+  },
+  "homepage": "https://github.com/shivamvarshney/node_practice#readme"
+}
