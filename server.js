@@ -4,4 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({ extended : true }));
 app.use(bodyParser.json());
+import Routes from './api/routes';
+app.use('/api/', Routes);
+app.listen(3000);
 console.log('Shivam Varshney After Updating');
