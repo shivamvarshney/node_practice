@@ -1,9 +1,11 @@
-const express = require('express');
-const router = express.Router();
-router.get('/', function(req, res) {
-  res.json({ permissions: [] });
+var permissions = require('express').Router();
+// api/products
+permissions.get('/', function (req, res) {
+  res.send({ products: [] });
 });
-router.get('/:id', function(req, res) {
-  res.json({ id: req.params.id });
+// api/products/:id
+permissions.get('/:id', function (req, res) {
+  res.send({ id: req.params.id });
 });
-module.exports = router;
+
+module.exports = permissions;
